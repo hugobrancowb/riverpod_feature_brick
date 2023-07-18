@@ -10,8 +10,8 @@ vars:
   featureName:
     type: string
     description: Your feature name
-    default: User
-    prompt: Enter your feature name?
+    default: Feature
+    prompt: Enter your feature name? (you can use either PascalCase or snakeCase)
   routable:
     type: boolean
     description: If it's true, PageRoute name will be added in the page
